@@ -85,6 +85,11 @@ html {
   object-fit: cover;
 }
 
+.info1,
+.info2 {
+  width: 50%;
+}
+
 footer,
 footer div {
   height: auto;
@@ -97,5 +102,16 @@ footer div {
 
   .container-absolute .buttons {
     top: 90%;
+  }
+
+  .info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info1,
+  .info2 {
+    width: 100%;
   }
 }

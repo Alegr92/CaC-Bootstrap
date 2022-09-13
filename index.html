@@ -44,17 +44,29 @@
     </div>
   </nav>
   <div class="container-fluid m-0 p-0 position-relative">
-    <img src="./assets/ba1.jpg" alt="" class="img">
+    <div id="carouselExampleSlidesOnly" class="carousel slide " data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/ba1.jpg" class="d-block w-100 img" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/ba2.jpg" class="d-block w-100 img" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/ba3.jpg" class="d-block w-100 img" alt="...">
+        </div>
+      </div>
+    </div>
     <div class="position-absolute container-absolute">
       <h1 class="position-absolute fw-semibold">Conf Bs As</h1>
       <div class="position-absolute texto">
         <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra
-          comunidad el conocimiento y
-          experiencia de los expertos que estan creando el futuro de Internet. Ven a conocer a miembros del evento, a
+          comunidad el conocimiento y experiencia de los expertos que están
+          creando el futuro de Internet. Ven a conocer a miembros del evento, a
           otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
       </div>
       <div class="position-absolute  buttons d-flex justify-content-end gap-2">
-        <button type="button" class="btn btn-outline-light ">Quiero ser ordador</button>
+        <button type="button" class="btn btn-outline-light ">Quiero ser orador</button>
         <button type="button" class="btn btn-success green3">Comprar tickets</button>
       </div>
     </div>
@@ -67,9 +79,10 @@
       <div class="card border">
         <img src="./assets/steve.jpg" alt="" class="mb-3 rounded-top">
         <div class="d-flex gap-2 ms-3">
-          <button type="button" class="btn btn-warning h-75 d-flex align-items-center fw-semibold">Javascript</button>
           <button type="button"
-            class="btn btn-info text-white h-75 d-flex align-items-center fw-semibold">React</button>
+            class="badge bg-warning text-dark d-flex align-items-center fw-bold border-0">Javascript</button>
+          <button type="button"
+            class="badge bg-info text-white  d-flex align-items-center fw-bold border-0">React</button>
         </div>
         <h3 class="ms-3">Steve Jobs</h3>
         <p class="p-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum deserunt nulla error atque vel
@@ -79,9 +92,10 @@
       <div class="card">
         <img src="./assets/bill.jpg" alt="" class="mb-3 rounded-top">
         <div class="d-flex gap-2 ms-3">
-          <button type="button" class="btn btn-warning h-75 d-flex align-items-center fw-semibold">Javascript</button>
           <button type="button"
-            class="btn btn-info text-white h-75 d-flex align-items-center fw-semibold">React</button>
+            class="badge bg-warning text-dark d-flex align-items-center fw-bold border-0">Javascript</button>
+          <button type="button"
+            class="badge bg-info text-white  d-flex align-items-center fw-bold border-0">React</button>
         </div>
         <h3 class="ms-3">Bill Gates</h3>
         <p class="p-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum deserunt nulla error atque vel
@@ -92,8 +106,8 @@
       <div class="card">
         <img src="./assets/ada.jpeg" alt="" class="mb-3 rounded-top">
         <div class="d-flex gap-2 ms-3">
-          <button type="button" class="btn btn-secondary h-75 d-flex align-items-center fw-semibold">Negocios</button>
-          <button type="button" class="btn btn-danger h-75 d-flex align-items-center fw-semibold ">Startups</button>
+          <button type="button" class="badge bg-secondary d-flex align-items-center fw-bold border-0">Negocios</button>
+          <button type="button" class="badge bg-danger d-flex align-items-center fw-bold border-0">Startups</button>
         </div>
         <h3 class="ms-3">Ada Lovalace</h3>
         <p class="p-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum deserunt nulla error atque vel
@@ -104,18 +118,22 @@
     </div>
   </section>
 
-  <section class="container-fluid p-0 d-flex border">
-    <div class="w-50 border">
+  <section class="container-fluid p-0 d-flex border info">
+    <div class=" border info1">
       <img src="./assets/honolulu.jpg" alt="" class="w-100  h-100 honolulu">
     </div>
-    <div class="w-50 gray border">
+    <div class=" gray border info2">
       <h2 class="text-white fw-semibold m-3">Bs As - Octubre</h2>
-      <p class="text-white m-3">Buenos aires es la provincia y localidad mas grande del estado de Argentina, en los
-        Estados
-        Unidos. Honolulu es
-        la mas sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al area
-        urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado
-        consolidada que cubre toda la ciudad (aproximadamente 600 km² de superficie</p>
+      <p class="text-white m-3">Bs As - Octubre
+
+        Buenos aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulú es
+        la más
+        sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulú se refiere al área urbana
+        en la
+        costa sureste de la isla de Oahu, la ciudad y el condado de Honolulú han formado una ciudad-condado consolidada
+        que
+        cubre toda la ciudad (aproximadamente 600 km² de superficie).</p>
+      <button type="button" class="btn btn-outline-light m-3">Conocé más</button>
     </div>
   </section>
 
@@ -149,11 +167,11 @@
         <a href="" class="text-decoration-none  text-white">Preguntas </a>
         <a href="" class="text-decoration-none text-white"> frecuentes</a>
       </div>
-      <a href="" class="text-decoration-none p-4 text-white">Contactanos</a>
+      <a href="" class="text-decoration-none p-4 text-white">Contáctanos</a>
       <a href="" class="text-decoration-none p-4 text-white">Prensa</a>
       <a href="" class="text-decoration-none p-4 text-white">Conferencias</a>
       <div class="d-flex flex-column p-4">
-        <a href="" class="text-decoration-none  text-white">Terminos y</a>
+        <a href="" class="text-decoration-none  text-white">Términos y</a>
         <a href="" class="text-decoration-none text-white"> condiciones</a>
       </div>
       <a href="" class="text-decoration-none p-4 text-white">Privacidad</a>
