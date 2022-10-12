@@ -33,6 +33,14 @@ html {
   background-color: #1d3947;
 }
 
+.blue {
+  width: 98%;
+  padding: 0.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  background-color: #cde1f5;
+}
+
 .img {
   width: 100%;
   height: 70vh;
@@ -113,5 +121,9 @@ footer div {
   .info1,
   .info2 {
     width: 100%;
+  }
+
+  .cuadrados {
+    flex-direction: column;
   }
 }
