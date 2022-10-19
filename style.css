@@ -103,6 +103,18 @@ footer div {
   height: auto;
 }
 
+footer {
+  margin-top: 7.6rem;
+}
+
+.categories {
+  margin-top: 5rem;
+}
+
+.padding {
+  padding: 2rem;
+}
+
 @media (max-width: 600px) {
   .container-absolute .texto {
     width: 300px;
@@ -125,5 +137,19 @@ footer div {
 
   .cuadrados {
     flex-direction: column;
+  }
+
+  .padding {
+    padding: 0.7rem;
+  }
+
+  footer div {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1180px) {
+  footer {
+    margin-top: 8rem;
   }
 }
